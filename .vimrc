@@ -86,7 +86,6 @@ let g:bufExplorerSortBy='fullpath'
 
 " quick access to netrw
 " nnoremap <S-f>     :Vex<cr>
-nnoremap <S-f>     :NERDTreeToggleVCS<cr>
 nnoremap ,f        :NERDTreeFind<CR>:wincmd p<CR>
 
 " turn on mouse wheel support
