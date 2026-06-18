@@ -26,7 +26,8 @@ set autoindent          " always set autoindenting on
 set directory=/tmp      " put swap files here
 set colorcolumn=+1      " when tw is turned on, show that column.
 set belloff=wildmode    " don't ring bell for wildcard completion
-set nu                  " number those lines
+set number              " number those lines
+set relativenumber      " relatively number those lines
 
 " this gets redone with powerline, but here for backup
 set statusline=[%n/%{bufnr('$')}]\ \ %<%F%h%w%1*%m%r%0*%=%y\ \ %4l,%-12.12(%-c%-V%)\ \ \ \ %3.3p%%
